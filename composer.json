@@ -1,0 +1,29 @@
+{
+    "name": "dft/silverstripe-file-icons",
+    "description": "Determine an icon class for uploaded files, based on extension",
+    "type": "silverstripe-vendormodule",
+    "homepage": "https://github.com/Dean-Forest-Tech/silverstripe-file-icons",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "silverstripe",
+        "assets",
+        "icons"
+    ],
+    "authors": [
+        {
+            "name": "Dean Forest Tech",
+            "homepage": "https://dean-forest-tech.uk"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ^8.0"
+        "silverstripe/assets": "^1.13|^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DFT\\SilverStripe\\FileIcons\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
