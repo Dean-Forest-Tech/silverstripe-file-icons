@@ -1,0 +1,157 @@
+---
+Name: fileiconsconfig
+After: #assetscore
+---
+SilverStripe\Assets\File:
+  extensions:
+    - DFT\SilverStripe\FileIcons\FileExtension
+
+  default_icon: 'fas fa-solid fa-file'
+
+  extension_icon_map:
+    archive:
+      icon: 'fas fa-solid fa-zipper'
+      extensions:
+        - 'ace'
+        - 'arc'
+        - 'arj'
+        - 'bz'
+        - 'bz2'
+        - 'cab'
+        - 'dmg'
+        - 'gz'
+        - 'hqx'
+        - 'jar'
+        - 'rar'
+        - 'sit'
+        - 'sitx'
+        - 'tar'
+        - 'tgz'
+        - 'zip'
+        - 'zipx'
+
+    audio:
+      icon: 'fas fa-solid fa-file-audio'
+      extensions:
+        - 'aif'
+        - 'aifc'
+        - 'aiff'
+        - 'apl'
+        - 'au'
+        - 'avr'
+        - 'cda'
+        - 'm4a'
+        - 'mid'
+        - 'midi'
+        - 'mp3'
+        - 'ogg'
+        - 'ra'
+        - 'ram'
+        - 'rm'
+        - 'snd'
+        - 'wav'
+        - 'wma'
+
+    image:
+      icon: 'fas fa-solid fa-file-image'
+      extensions:
+        - 'alpha'
+        - 'als'
+        - 'bmp'
+        - 'cel'
+        - 'gif'
+        - 'ico'
+        - 'icon'
+        - 'jpeg'
+        - 'jpg'
+        - 'pcx'
+        - 'png'
+        - 'ps'
+        - 'psd'
+        - 'tif'
+        - 'tiff'
+        - 'webp'
+
+    braille:
+      icon: 'fas fa-solid fa-braille'
+      extensions:
+        - 'brf'
+
+    code: 
+      icon: 'fas fa-solid fa-file-code'
+      extensions: 
+        - 'css'
+        - 'htm'
+        - 'html'
+        - 'js'
+        - 'kml'
+        - 'xhtml'
+        - 'xml'
+
+    csv: 
+      icon: 'fas fa-solid fa-file-csv'
+      extensions:
+        - 'csv'
+
+    document:
+      icon: 'fas fa-solid fa-file'
+      extensions:
+        - 'dotm'
+        - 'dotx'
+        - 'fla'
+        - 'pages'
+        - 'potm'
+        - 'potx'
+        - 'rtf'
+        - 'swf'
+        - 'txt'
+        - 'xltm'
+        - 'xltx'
+
+    excel:
+      icon: 'fas fa-solid fa-file-excel'
+      extensions:
+        - 'xls'
+        - 'xlsx'
+
+    pdf: 
+      icon: 'fas fa-solid fa-file-pdf'
+      extensions:
+        - 'pdf'
+
+    powerpoint:
+      icon: 'fas fa-solid fa-file-powerpoint'
+      extensions:
+        - 'pps'
+        - 'ppt'
+        - 'pptx'
+
+    video:
+      icon: 'fas fa-solid fa-file-video'
+      extensions:
+        - 'asf'
+        - 'avi'
+        - 'flv'
+        - 'ifo'
+        - 'm1v'
+        - 'm2v'
+        - 'm4v'
+        - 'mkv'
+        - 'mov'
+        - 'mp2'
+        - 'mp4'
+        - 'mpa'
+        - 'mpe'
+        - 'mpeg'
+        - 'mpg'
+        - 'ogv'
+        - 'qt'
+        - 'vob'
+        - 'webm'
+        - 'wmv'
+
+    word:
+      icon: 'fas fa-solid fa-file-word'
+      extensions:
+        - 'doc'
+        - 'docx'
